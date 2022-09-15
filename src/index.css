@@ -57,7 +57,7 @@ button{
 button:hover{
   opacity:0.9;
 }
-.operators{
+.fl-operators{
   display:flex;
 }
 
