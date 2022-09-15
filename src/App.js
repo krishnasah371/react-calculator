@@ -3,14 +3,13 @@ import { useState } from 'react';
 
 function App() {
   
-  }
   return (
     <div className="App">
-      <div className="calculator">
-        <div className="display">
+      <div className="fl-calculator">
+        <div className="fl-display">
         
         </div>
-        <div className="operators">
+        <div className="fl-operators">
           <button >+</button>
           <button >-</button>
           <button >*</button>
@@ -18,7 +17,7 @@ function App() {
           <button >Del</button>
 
         </div>
-        <div className="digits">
+        <div className="fl-digits">
           {createDigits()}
           <button >0</button>
           <button >.</button>
